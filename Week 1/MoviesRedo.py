@@ -5,6 +5,7 @@ from imdb import Cinemagoer
 im = Cinemagoer()
 
 class movie:
+    @staticmethod
     def main():
         global search,results
 
@@ -35,10 +36,5 @@ class movie:
         for i in range(5): 
             print("    ", cast[i]) 
         
-if __name__ == "__main__":
-    movie.main()
-
-        
-
 
 movie.main()
