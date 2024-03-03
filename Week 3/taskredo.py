@@ -210,7 +210,7 @@ class Movie:
                     Movie.confirm()
 
     def payment():
-        global card2,cvv2,email,amount_due
+        global card2,cvv2,email
         card2 = input(f"\nCard Number:\n")
         cvv2 = input(f"CVV Code:\n")
         email = input("Email adress: \n")
