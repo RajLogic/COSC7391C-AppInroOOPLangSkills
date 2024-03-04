@@ -26,6 +26,7 @@ link = os.getenv('DISCORD_LINK')
 ownerid = os.getenv('DISCORD_OWNERID')
 
 
+
 im = Cinemagoer()
 command_prefix="!"
 bot = discord.Bot(command_prefix="!", intents=discord.Intents.all())
